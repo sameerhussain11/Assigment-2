@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.nav {
+    background-color: black;
+    font-size: 25px;
+    padding: 35px;
+}
+.nav img {
+    width: 250px;
+    cursor: pointer;
+    transition: 0.6s linear;
+}
+.nav img:hover {
+    background-color: aliceblue;
+}
+.lst {
+    margin-left: 270px;
+    margin-top: -70px;
+
+}
+.lst li {
+    display: inline;
+    padding: 15px;
+
+}
+.lst li a:hover {
+    color: rgb(194, 0, 0);
+    font-weight: bolder;
+}
+.lst a {
+    text-decoration: none;
+    transition: 0.6s linear;
+}
